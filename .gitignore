@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Neo4j
+data/*.tsv
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
