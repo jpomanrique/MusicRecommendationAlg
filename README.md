@@ -1,12 +1,13 @@
 # Sistema de Recomendação Musical com Neo4j
-# Desenvolvido usando Last.fm (Kaggle)qual contêm usuários, artistas, tags, plays… para fazer um grafo de recomendação de Musica.
+# Construido e Adaptado por: John Peter Oyardo Manrique
 # URL original e descreve formato dos arquivos: https://www.upf.edu/web/mtg/lastfm360k.
-# URL Kaggle: https://www.kaggle.com/datasets/neferfufi/lastfm?resource=download
-# Recomendação: use a URL Kaggle que e a que comtem os arquivos usados neste projeto.
-
-# Adaptado por: John Peter Oyardo Manrique
+# URL Kaggle: https://www.kaggle.com/datasets/neferfufi/lastfm?resource=download.
+Recomendação: use a URL Kaggle para baixar os arquivos usados neste projeto.
 
 ## 📌 Visão Geral
+
+Este Sistema de recomendação foi desenvolvido usando Last.fm (Kaggle) qual contêm usuários, artistas, tags, plays… para fazer um grafo de recomendação de Musica.
+
 Este projeto implementa um **sistema de recomendação musical** utilizando **Neo4j** e **Cypher**, baseado em dados reais de escuta de usuários. O objetivo é demonstrar como modelar dados musicais em grafo e extrair recomendações a partir de padrões de comportamento dos usuários.
 
 O sistema utiliza **collaborative filtering baseado em usuários**, explorando relações entre usuários e artistas para sugerir novos artistas que um usuário ainda não escutou.
@@ -38,10 +39,10 @@ O sistema utiliza **collaborative filtering baseado em usuários**, explorando r
 
 ```
 .
-├── 01_schema.cypher
-├── 02_import_users.cypher
-├── 03_import_listens.cypher
-├── 04_recommendations.cypher
+├── schema.cypher
+├── import_users.cypher
+├── import_listens.cypher
+├── recommendations.cypher
 │
 ├── data/
 │   ├── userid-timestamp-artid-artname-traid-traname.tsv
