@@ -215,7 +215,7 @@ Arctic Monkeys	7550
 The Strokes	7312
 Pixies	6981
 
-➡️ Esses artistas não foram escutados pelo usuário, mas são populares entre usuários com comportamento semelhante.
+➡️ Esses artistas não foram escutados pelo usuário, mas são populares entre usuários por similaridadecom (comportamento semelhante).
 
 O score representa a relevância baseada no volume de reproduções dos usuários similares.
 
