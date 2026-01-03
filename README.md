@@ -175,7 +175,7 @@ Arquivo: recommendations.cypher
 
 Executa o algoritmo de recomendação baseado em usuários com gostos similares.
 
-Substitua <USER_ID> por um user_id válido do banco. {exemplo -> user_sha1:'00000c289a1829a808ac09c00daf10bc3c4e223b'}
+Substitua <USER_ID> por um user_id válido do banco. 
 ---
 
 ### 5️⃣ Executar recomendações
@@ -189,6 +189,8 @@ RETURN rec.name AS artist, sum(r.plays) AS score
 ORDER BY score DESC
 LIMIT 10;
 ```
+
+exemplo -> user_sha1:'00000c289a1829a808ac09c00daf10bc3c4e223b'
 
 ---
 
