@@ -147,7 +147,7 @@ Detalhe de execução dos Arquivos Cypher em Neo4j:
 4.- recommendations.cypher → testar
 
 
-Passo 1 — Criar Schema
+🔹 Passo 1 — Criar Schema
 
 Arquivo: schema.cypher
 
