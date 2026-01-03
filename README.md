@@ -9,7 +9,7 @@ Projeto desenvolvido a partir do dataset **Last.fm (Kaggle)**, contendo usuário
 
 > **Recomendação:** utilize a versão do Kaggle, pois é a que contém exatamente os arquivos usados neste projeto.
 
-**Projeto grafo de recomendação musical por:**  
+**Projeto grafo de recomendação musical por Similaridade:**  
 **John Peter Oyardo Manrique**
 
 ---
@@ -215,7 +215,7 @@ Arctic Monkeys	7550
 The Strokes	7312
 Pixies	6981
 
-➡️ Esses artistas não foram escutados pelo usuário, mas são populares entre usuários por similaridadecom (comportamento semelhante).
+➡️ Esses artistas não foram escutados pelo usuário, mas são populares entre usuários por similaridade (comportamento semelhante).
 
 O score representa a relevância baseada no volume de reproduções dos usuários similares.
 
