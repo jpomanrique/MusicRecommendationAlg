@@ -9,7 +9,7 @@ Projeto desenvolvido a partir do dataset **Last.fm (Kaggle)**, contendo usuário
 
 > **Recomendação:** utilize a versão do Kaggle, pois é a que contém exatamente os arquivos usados neste projeto.
 
-**Adaptado por:**  
+**Esta projeto foi construido e Adaptado por:**  
 **John Peter Oyardo Manrique**
 
 ---
