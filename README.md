@@ -1,8 +1,18 @@
 # Sistema de Recomendação Musical com Neo4j
-# Construido e Adaptado por: John Peter Oyardo Manrique
-# URL original e descreve formato dos arquivos: https://www.upf.edu/web/mtg/lastfm360k.
-# URL Kaggle: https://www.kaggle.com/datasets/neferfufi/lastfm?resource=download.
-Recomendação: use a URL Kaggle para baixar os arquivos usados neste projeto.
+
+Projeto desenvolvido a partir do dataset **Last.fm (Kaggle)**, contendo usuários, artistas e histórico de reproduções (*plays*), com o objetivo de construir um **grafo de recomendação musical** utilizando **Neo4j**.
+
+- Dataset original e descrição do formato dos arquivos:  
+  https://www.upf.edu/web/mtg/lastfm360k
+- Dataset utilizado neste projeto (Kaggle):  
+  https://www.kaggle.com/datasets/neferfufi/lastfm  
+
+> **Recomendação:** utilize a versão do Kaggle, pois é a que contém exatamente os arquivos usados neste projeto.
+
+**Adaptado por:**  
+**John Peter Oyardo Manrique**
+
+---
 
 ## 📌 Visão Geral
 
