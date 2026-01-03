@@ -149,7 +149,7 @@ Detalhe de execução dos Arquivos Cypher em Neo4j:
 
 Passo 1 — Criar Schema
 
-Arquivo: 01_schema.cypher
+Arquivo: schema.cypher
 
 Cria constraints e índices para garantir unicidade e performance.
 
@@ -157,13 +157,13 @@ Cria constraints e índices para garantir unicidade e performance.
 
 🔹 Passo 2 — Importar Usuários
 
-Arquivo: 02_import_users.cypher
+Arquivo: import_users.cypher
 
 Carrega os perfis dos usuários (idade, país, gênero) e cria nós User.
 
 🔹 Passo 3 — Importar Escutas
 
-Arquivo: 03_import_listens.cypher
+Arquivo: import_listens.cypher
 
 Cria nós Artist e relacionamentos LISTENED_TO, acumulando o número de reproduções (plays).
 
@@ -171,11 +171,11 @@ Este é o passo mais pesado do projeto.
 
 🔹 Passo 4 — Gerar Recomendações
 
-Arquivo: 04_recommendations.cypher
+Arquivo: recommendations.cypher
 
 Executa o algoritmo de recomendação baseado em usuários com gostos similares.
 
-Substitua <USER_ID> por um user_id válido do banco.
+Substitua <USER_ID> por um user_id válido do banco. {exemplo -> user_sha1:'00000c289a1829a808ac09c00daf10bc3c4e223b'}
 ---
 
 ### 5️⃣ Executar recomendações
