@@ -190,7 +190,7 @@ ORDER BY score DESC
 LIMIT 10;
 ```
 
-exemplo -> user_sha1:'00000c289a1829a808ac09c00daf10bc3c4e223b'
+exemplo -> <USER_ID> = user_sha1:'00000c289a1829a808ac09c00daf10bc3c4e223b'
 
 ---
 
